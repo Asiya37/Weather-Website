@@ -15,7 +15,7 @@ fetchWeatherButton.addEventListener('click', () => {
     return;
   }
 
-  const apiKey = 'fa7882871e5f4d02ade120021252601'; // Replace with your WeatherAPI key
+  const apiKey = // Replace with your WeatherAPI key
   const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityInput}`;
 
   fetch(url)
